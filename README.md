@@ -49,7 +49,7 @@ Revenue Last Month =
 CALCULATE(
     [Total Revenue], 
     PREVIOUSMONTH('Online Sales Data'[Date])
-)
+)```
 
 ## 📷 Screenshots
 ![Dashboard Screenshot](images/dashboard01.png)
