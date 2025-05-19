@@ -51,6 +51,6 @@ CALCULATE(
     PREVIOUSMONTH('Online Sales Data'[Date])
 )
 
-📷 ## Screenshots
+## 📷 Screenshots
 ![Dashboard Screenshot](images/dashboard01.png)
    
