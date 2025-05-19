@@ -3,8 +3,8 @@ This project presents an interactive Power BI dashboard analyzing online sales t
 The goal is to extract actionable insights to support decision-making in marketing, sales, and operations.
 
 ## 📁 Dataset Overview
-Source: [Online Sales Dataset](https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data).
-Records: Each row represents an online sales transaction.
+Source: [Online Sales Dataset](https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data).  
+Records: Each row represents an online sales transaction.  
 Columns:
 Transaction ID: Unique identifier for each transaction.
 Date: Date of the transaction.
