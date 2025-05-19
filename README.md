@@ -5,16 +5,16 @@ The goal is to extract actionable insights to support decision-making in marketi
 ## 📁 Dataset Overview
 Source: [Online Sales Dataset](https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data).  
 Records: Each row represents an online sales transaction.  
-Columns:
-Transaction ID: Unique identifier for each transaction.
-Date: Date of the transaction.
-Category: Product category (Electronics, Clothing, etc.).
-Product Name: Specific product sold.
-Unit Sold: Number of units sold.
-Unit Price: Price per unit.
-Total Price: Quantity × Unit Price.
-City: Geographic region (Riyadh, Jeddah, Dammam).
-Payment Method: (Credit Card, PayPal).
+Columns:  
+Transaction ID: Unique identifier for each transaction.  
+Date: Date of the transaction.  
+Category: Product category (Electronics, Clothing, etc.).  
+Product Name: Specific product sold.  
+Unit Sold: Number of units sold.  
+Unit Price: Price per unit.  
+Total Revenue: Quantity × Unit Price.  
+City: Geographic region (Riyadh, Jeddah, Dammam).  
+Payment Method: (Credit Card, PayPal).  
 
 ## 📌 Project Goals
 1. Analyze total revenue, order volume, and units sold across different cities and time periods.
