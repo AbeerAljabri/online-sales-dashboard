@@ -5,7 +5,6 @@ The goal is to extract actionable insights to support decision-making in marketi
 ## 📁 Dataset Overview
 Source: [Online Sales Dataset](https://www.kaggle.com/datasets/shreyanshverma27/online-sales-dataset-popular-marketplace-data)
 Records: Each row represents an online sales transaction.
-
 Columns:
 Transaction ID: Unique identifier for each transaction.
 Date: Date of the transaction.
@@ -30,11 +29,27 @@ Payment Method: (Credit Card, PayPal).
 4. Electronics category performed well in terms of revenue.
 5. There was a noticeable decline in revenue in May, indicating a possible seasonal trend or market shift.
 
+
 ## 🧮 DAX Measures Used
-<pre>  ```DAX Average Order Value = DIVIDE(SUM('Online Sales Data'[Total Revenue]), DISTINCTCOUNT('Online Sales Data'[Transaction ID]))`
-Average Unit Price = AVERAGE('Online Sales Data'[Unit Price])
-Total Unit Sold = SUM('Online Sales Data'[Unit Sold])
-Revenue Last Month = CALCULATE([Total Revenue], PREVIOUSMONTH('Online Sales Data'[Date])) ``` </pre>
+
+```DAX
+Average Order Value = 
+DIVIDE(
+    SUM('Online Sales Data'[Total Revenue]), 
+    DISTINCTCOUNT('Online Sales Data'[Transaction ID])
+)
+
+Average Unit Price = 
+AVERAGE('Online Sales Data'[Unit Price])
+
+Total Unit Sold = 
+SUM('Online Sales Data'[Unit Sold])
+
+Revenue Last Month = 
+CALCULATE(
+    [Total Revenue], 
+    PREVIOUSMONTH('Online Sales Data'[Date])
+)
 
 📷 ## Screenshots
 ![Dashboard Screenshot](images/dashboard01.png)
