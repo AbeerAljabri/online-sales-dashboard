@@ -31,7 +31,7 @@ Payment Method: (Credit Card, PayPal).
 5. There was a noticeable decline in revenue in May, indicating a possible seasonal trend or market shift.
 
 ## 🧮 DAX Measures Used
-<pre> ` Average Order Value = DIVIDE(SUM('Online Sales Data'[Total Revenue]), DISTINCTCOUNT('Online Sales Data'[Transaction ID]))`
+<pre>  ```DAX Average Order Value = DIVIDE(SUM('Online Sales Data'[Total Revenue]), DISTINCTCOUNT('Online Sales Data'[Transaction ID]))`
 Average Unit Price = AVERAGE('Online Sales Data'[Unit Price])
 Total Unit Sold = SUM('Online Sales Data'[Unit Sold])
 Revenue Last Month = CALCULATE([Total Revenue], PREVIOUSMONTH('Online Sales Data'[Date])) ``` </pre>
