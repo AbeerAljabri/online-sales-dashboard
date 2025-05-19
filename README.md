@@ -1,4 +1,4 @@
-📊 # Online Sales Dashboard – Power BI Project
+📊 #Online Sales Dashboard – Power BI Project
 This project presents an interactive Power BI dashboard analyzing online sales transactions across various product categories, cities, and time periods. 
 The goal is to extract actionable insights to support decision-making in marketing, sales, and operations.
 
