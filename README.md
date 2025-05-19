@@ -29,9 +29,7 @@ Payment Method: (Credit Card, PayPal).
 4. Electronics category performed well in terms of revenue.
 5. There was a noticeable decline in revenue in May, indicating a possible seasonal trend or market shift.
 
-
 ## 🧮 DAX Measures Used
-
 ```DAX
 Average Order Value = 
 DIVIDE(
@@ -49,7 +47,8 @@ Revenue Last Month =
 CALCULATE(
     [Total Revenue], 
     PREVIOUSMONTH('Online Sales Data'[Date])
-)```
+)
+```
 
 ## 📷 Screenshots
 ![Dashboard Screenshot](images/dashboard01.png)
